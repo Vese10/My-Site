@@ -4,6 +4,9 @@
   box-sizing: border-box;
   }
 
+  $primary-color: black;
+  $secondary-color: #6DA137;
+
   .header{
     display: flex;
     justify-content: space-between;
@@ -13,10 +16,13 @@
     top: 0;
     left: 0;
     right: 0;
+    font-family: 'Walter Turncoat', cursive;
     }
 
   .left-section{
     font-size: 50px;
+    font-weight: bold;
+    color: $secondary-color;
     }
 
   .right-section{
@@ -26,6 +32,15 @@
     width: 500px;
     padding-top: 5px;
     font-size: 20px;
+    }
+
+  .home,
+  .curriculum-vitae,
+  .about-me,
+  .contacts{
+    border: 2px solid $primary-color;
+    padding-left: 5px;
+    padding-right: 5px;
     }
 
 
