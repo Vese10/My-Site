@@ -12,7 +12,7 @@
   .body{
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
   .header{
     display: flex;
@@ -54,6 +54,13 @@
 
 
   .bali-image{
+    position: relative;
+    max-width: 100%;
+    display: none;
+
+    }
+
+  .bali-image-small{
     position: relative;
     max-width: 100%;
     display: block;
@@ -110,6 +117,12 @@
     max-width: 100%;
     display: block;
     }
+        
+  .bali-image-small{
+    position: relative;
+    max-width: 100%;
+    display: none;
+    }
   }
 
 /* Desktop Styles */
@@ -161,6 +174,12 @@
     position: relative;
     max-width: 100%;
     display: block;
+    }
+
+  .bali-image-small{
+    position: relative;
+    max-width: 100%;
+    display: none;
     }
   }
 
