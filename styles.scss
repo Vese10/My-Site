@@ -104,23 +104,23 @@ a{
   top: 0;
 }
 
-@media screen and (min-width: 961px){
-  .header li{
+@media (min-width: 961px){
+  .header li {
     float: left;
   }
-  
-  .header li a{
+
+  .header li a {
     padding: 20px 30px;
   }
 
   .header .menu{
     clear: none;
     float: right;
-    max-height: 0;
+    max-height: none;
   }
 
   .header .menu-icon{
-    display: none;}
+    display: none;  
+  }
 }
-  
   
