@@ -22,11 +22,14 @@ a{
 .header .logo{
   display: flex;
   align-items: center;
-  height: 58px;
+  padding-left: 20px;
+  height: 68px;
   text-decoration: none;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   color: $secondary-color;
+  float: left;
+  font-size: 25px;
 }
 
 .header ul{
@@ -46,12 +49,6 @@ a{
 
 .header ul a:hover{
   background-color: $hover-color;
-}
-
-.header .logo{
-  float: left;
-  font-size: 25px;
-  padding: 10px 20px;
 }
 
 .header .menu{
