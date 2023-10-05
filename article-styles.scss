@@ -5,12 +5,22 @@
   }
 
 .main-page{
+  display: flex;
   height: auto;
   justify-content: inherit;
-  align-items: inherit;  
+  align-items: inherit;
+}
+
+.main-page .main-text{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+  font-family: Walter-Turncoat, cursive;
 }
 
 .main-page .bali-background-small{
+  position: absolute;
   width: 100%;
   display: block;
 }
