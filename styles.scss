@@ -41,6 +41,7 @@ a{
   text-decoration: none;
   font-family: Walter-Turncoat, cursive;
   color: $secondary-color;
+  font-size: 20px;
 }
 
 .header ul a:hover{
@@ -99,7 +100,7 @@ a{
 }
 
 .header .menu-btn:checked ~ .menu{
-  max-height: 240px;
+  max-height: 280px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon{

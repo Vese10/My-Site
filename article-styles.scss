@@ -25,8 +25,9 @@ $hover-color: #2C5247;
 }
 
 .main-page .main-text .first-row,
-.main-page .main-text .third-row{
+.main-page .main-text .third-row,{
   font-family: Walter-Turncoat, cursive;
+  font-size: 22px;
 }
 
 .main-page .main-text .third-row .my-job{
@@ -36,6 +37,22 @@ $hover-color: #2C5247;
 .main-page .main-text .second-row{
   font-family: 'Permanent Marker', cursive;
   font-size: 35px;
+}
+
+.main-page .main-text .fourth-row{
+  margin-top: 25px;  
+}
+
+.main-page .main-text .fourth-row .choose-me{
+  margin-top: 60px;
+  padding: 5px 10px;
+  background-color: $primary-color;
+  border: 2px solid $secondary-color;
+  border-radius: 15px;
+  font-family: 'Permanent Marker', cursive;
+  cursor: pointer;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 .main-page .bali-background-small{
