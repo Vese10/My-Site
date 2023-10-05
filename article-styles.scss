@@ -9,17 +9,17 @@ $secondary-color: #000000;
 $hover-color: #2C5247;
 
 .main-page{
-  display: flex;
   height: auto;
   justify-content: inherit;
   align-items: inherit;
+  z-index: 2;
 }
 
 .main-page .main-text{
   position: relative;
   width: 100%;
   text-align: center;
-  margin-top: 200px;
+  padding-top: 200px;
   line-height: 20px;
   color: $secondary-color;
 }
@@ -55,6 +55,14 @@ $hover-color: #2C5247;
   text-decoration: none;
 }
 
+.main-page .main-text .fourth-row .choose-me:hover{
+  background-color: $hover-color;  
+}
+
+.main-page .main-text .fourth-row .choose-me:active{
+  background-color: $primary-color;
+}
+
 .main-page .bali-background-small{
   position: absolute;
   width: 100%;
@@ -69,10 +77,11 @@ $hover-color: #2C5247;
 .main-page{
   height: auto;
   justify-content: inherit;
-  align-items: inherit;  
+  align-items: inherit;
 }
 
 .main-page .bali-background-big{
+  position: absolute;
   width: 100%;
   display: block;
 }
