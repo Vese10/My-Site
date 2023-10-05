@@ -4,6 +4,10 @@
   box-sizing: border-box;
   }
 
+$primary-color: #366457;
+$secondary-color: #000000;
+$hover-color: #2C5247;
+
 .main-page{
   display: flex;
   height: auto;
@@ -16,7 +20,22 @@
   width: 100%;
   text-align: center;
   margin-top: 200px;
+  line-height: 20px;
+  color: $secondary-color;
+}
+
+.main-page .main-text .first-row,
+.main-page .main-text .third-row{
   font-family: Walter-Turncoat, cursive;
+}
+
+.main-page .main-text .third-row .my-job{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.main-page .main-text .second-row{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
 }
 
 .main-page .bali-background-small{
