@@ -90,12 +90,19 @@ $hover-color: #2C5247;
   padding: 5px 10px;
   font-family: Walter-Turncoat, cursive;
   color: $primary-color;
-  margin-top: 20px;
   font-size: 15px;
   max-width: fit-content;
   margin-left: 20px;
   margin-right: 20px;
-  
+}
+
+.main-page .main-text .email-form-intro{
+  margin-top: 40px;  
+}
+
+.main-page .main-text .client-name,
+.main-page .main-text .email-form{
+  margin-top: 2px;  
 }
 
 .main-page .main-text .my-email-intro .my-email{
