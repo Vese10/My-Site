@@ -30,6 +30,89 @@ $hover-color: #2C5247;
   color: $secondary-color;
 }
 
+.main-page .main-text .first-row,
+.main-page .main-text .third-row,{
+  font-family: Walter-Turncoat, cursive;
+  font-size: 22px;
+}
+
+.main-page .main-text .third-row .my-job{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.main-page .main-text .second-row{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+}
+
+.main-page .main-text .fourth-row{
+  margin-top: 25px;  
+}
+
+.main-page .main-text .fourth-row .choose-me{
+  margin-top: 60px;
+  padding: 5px 10px;
+  background-color: $primary-color;
+  border: 2px solid $secondary-color;
+  border-radius: 15px;
+  font-family: 'Permanent Marker', cursive;
+  cursor: pointer;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.main-page .main-text .fourth-row .choose-me:hover{
+  background-color: $hover-color;  
+}
+
+.main-page .main-text .fourth-row .choose-me:active{
+  background-color: $primary-color;
+}
+
+.about-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  color: $secondary-color;
+  background-color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.about-me .my-description{
+  margin-right: 50px;
+  font-family: Walter-Turncoat, cursive;
+}
+
+.about-me .my-description .about-me-text{
+
+}
+
+.about-me .my-description .my-journey{
+}
+
+.about-me .my-image-container{
+  margin-left: 50px;
+  margin-right: 30px;
+  max-width: 250px;
+  min-width: 150px;
+}
+
+.about-me .my-image{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.about-me .start2impact:hover{
+  background-color: $hover-color;  
+}
+
 .contact{
   min-height: 100vh;
   padding: 5px 10px;
@@ -105,45 +188,6 @@ $hover-color: #2C5247;
   background-color: $hover-color;
 }
 
-.main-page .main-text .first-row,
-.main-page .main-text .third-row,{
-  font-family: Walter-Turncoat, cursive;
-  font-size: 22px;
-}
-
-.main-page .main-text .third-row .my-job{
-  font-family: 'Permanent Marker', cursive;
-}
-
-.main-page .main-text .second-row{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 35px;
-}
-
-.main-page .main-text .fourth-row{
-  margin-top: 25px;  
-}
-
-.main-page .main-text .fourth-row .choose-me{
-  margin-top: 60px;
-  padding: 5px 10px;
-  background-color: $primary-color;
-  border: 2px solid $secondary-color;
-  border-radius: 15px;
-  font-family: 'Permanent Marker', cursive;
-  cursor: pointer;
-  font-size: 22px;
-  text-decoration: none;
-}
-
-.main-page .main-text .fourth-row .choose-me:hover{
-  background-color: $hover-color;  
-}
-
-.main-page .main-text .fourth-row .choose-me:active{
-  background-color: $primary-color;
-}
-
 .main-page .bali-background-small{
   position: fixed;
   display: block;
@@ -176,4 +220,34 @@ $hover-color: #2C5247;
 .main-page .bali-background-small{
   display: none;
 }
+}
+
+@media (max-width: 550px){
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: $secondary-color;
+  background-color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.about-me .my-description{
+  margin: 30px;
+  font-family: Walter-Turncoat, cursive;
+}
+
+.about-me .my-image-container{
+  margin-left: 30px;
+  margin-right: 30px;
+  max-width: 250px;
+  min-width: 150px;
+}
+
 }
