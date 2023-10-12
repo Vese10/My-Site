@@ -45,6 +45,61 @@ $hover-color: #2C5247;
   background-color: $hover-color;  
 }
 
+.my-journey{
+  padding-bottom: 200px;
+}
+
+.journey-title{
+  text-align: center;
+  font-family: Walter-Turncoat, cursive;
+  margin-bottom: 20px; 
+}
+
+.bulgaria{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid $primary-color;
+  border-bottom: 1px solid $primary-color;
+}
+
+.bulgaria-image,
+.hobbies-images{
+  object-fit: cover;
+  height: 40%;
+  width: 40%;
+}
+
+.bulgaria-text,
+.italy-text{
+  font-family: Walter-Turncoat, cursive;
+  text-align: center;
+}
+
+.italy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid $primary-color;
+}
+
+.images-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.first-container,
+.second-container,
+.third-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media (max-width: 550px){
 .about-me{
   display: flex;
