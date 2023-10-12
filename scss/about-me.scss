@@ -69,6 +69,7 @@ $hover-color: #2C5247;
   object-fit: cover;
   height: 40%;
   width: 40%;
+  margin: 10px 0;
 }
 
 .bulgaria-text,
@@ -94,7 +95,8 @@ $hover-color: #2C5247;
 
 .first-container,
 .second-container,
-.third-container{
+.third-container,
+.fourth-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
