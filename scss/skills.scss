@@ -40,7 +40,7 @@ li{
   padding-bottom: 150px;  
 }
 
-.skills .skills-container{
+.skills-container{
   background-color: #ffffff;
   border-radius: 5px;
   border: 2px solid $primary-color;
@@ -107,7 +107,7 @@ li{
   text-align: left;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   position: fixed;
   display: block;
   width: 100%;
@@ -116,7 +116,7 @@ li{
   margin: 68px 0;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   display: none;
 }
 
@@ -127,7 +127,7 @@ li{
   align-items: inherit;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   position: fixed;
   display: block;
   width: 100%;
@@ -136,7 +136,7 @@ li{
   margin: 68px 0;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   display: none;
 }
 }

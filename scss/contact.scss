@@ -31,18 +31,18 @@ $hover-color: #2C5247;
   padding-bottom: 150px;
 }
 
-.contact .contact-container{
+.contact-container{
   background-color: #ffffff;
   padding: 10px 15px;
   border-radius: 5px;
   border: 2px solid $primary-color;
 }
 
-.contact .contact-container .contact-me{
+.contact-me{
   font-size: 30px;  
 }
 
-.contact .contact-container .contact-text{
+.contact-text{
   line-height: 27px;
   margin: 15px;
 }
@@ -95,7 +95,7 @@ $hover-color: #2C5247;
   background-color: $hover-color;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   position: fixed;
   display: block;
   width: 100%;
@@ -104,7 +104,7 @@ $hover-color: #2C5247;
   margin: 68px 0;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   display: none;
 }
 
@@ -115,7 +115,7 @@ $hover-color: #2C5247;
   align-items: inherit;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   position: fixed;
   display: block;
   width: 100%;
@@ -124,7 +124,7 @@ $hover-color: #2C5247;
   margin: 68px 0;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   display: none;
 }
 }

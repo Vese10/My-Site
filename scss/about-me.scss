@@ -22,26 +22,26 @@ $hover-color: #2C5247;
   padding-bottom: 200px;
 }
 
-.about-me .my-description{
+.my-description{
   margin-right: 50px;
   font-family: 'Tilt Neon', sans-serif;
 }
 
-.about-me .my-image-container{
+.my-image-container{
   margin-left: 50px;
   margin-right: 30px;
   max-width: 250px;
   min-width: 150px;
 }
 
-.about-me .my-image{
+.my-image{
   object-fit: cover;
   height: 100%;
   width: 100%;
   border-radius: 50px;
 }
 
-.about-me .start2impact:hover{
+.start2impact:hover{
   background-color: $hover-color;  
 }
 
@@ -118,12 +118,12 @@ $hover-color: #2C5247;
   padding-bottom: 200px;
 }
 
-.about-me .my-description{
+.my-description{
   margin: 30px;
   font-family: 'Tilt Neon', sans-serif;
 }
 
-.about-me .my-image-container{
+.my-image-container{
   margin-left: 30px;
   margin-right: 30px;
   max-width: 250px;

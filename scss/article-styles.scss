@@ -15,7 +15,7 @@ $hover-color: #2C5247;
   z-index: 2;
 }
 
-.main-page .main-text{
+.main-text{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,17 +28,17 @@ $hover-color: #2C5247;
   color: $secondary-color;
 }
 
-.main-page .main-text .first-row,
-.main-page .main-text .third-row,{
+.first-row,
+.third-row,{
   font-family: 'Tilt Neon', sans-serif;
   font-size: 22px;
 }
 
-.main-page .main-text .third-row .my-job{
+.my-job{
   font-family: 'Permanent Marker', cursive;
 }
 
-.main-page .main-text .second-row{
+.second-row{
   font-family: 'Permanent Marker', cursive;
   font-size: 35px;
 }
@@ -47,7 +47,7 @@ $hover-color: #2C5247;
   text-decoration: none;
 }
 
-.main-page .main-text .fourth-row{
+.fourth-row{
   margin: 20px 10px;
   padding: 5px 10px;
   background-color: $primary-color;
@@ -59,15 +59,15 @@ $hover-color: #2C5247;
   text-decoration: none;
 }
 
-.main-page .main-text .fourth-row:hover{
+.fourth-row:hover{
   background-color: $hover-color;  
 }
 
-.main-page .main-text .fourth-row:active{
+.fourth-row:active{
   background-color: $primary-color;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   position: fixed;
   display: block;
   width: 100%;
@@ -76,7 +76,7 @@ $hover-color: #2C5247;
   margin: 68px 0;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   display: none;
 }
 
@@ -87,7 +87,7 @@ $hover-color: #2C5247;
   align-items: inherit;
 }
 
-.main-page .bali-background-big{
+.bali-background-big{
   position: fixed;
   display: block;
   width: 100%;
@@ -96,7 +96,7 @@ $hover-color: #2C5247;
   margin: 68px 0;
 }
 
-.main-page .bali-background-small{
+.bali-background-small{
   display: none;
 }
 }

@@ -19,7 +19,7 @@ a{
   z-index: 3;
 }
 
-.header .logo{
+.logo{
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -51,20 +51,20 @@ a{
   background-color: $hover-color;
 }
 
-.header .menu{
+.menu{
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
 }
 
-.header .menu-icon{
+.menu-icon{
   padding: 28px;
   position: relative;
   float: right;
   cursor: pointer;
 }
 
-.header .menu-icon .nav-icon{
+.nav-icon{
   background-color: $secondary-color;
   display: block;
   width: 18px;
@@ -73,8 +73,8 @@ a{
   transition: background-color 0.2s ease-out;
 }
 
-.header .menu-icon .nav-icon::before,
-.header .menu-icon .nav-icon::after{
+.nav-icon::before,
+.nav-icon::after{
   background-color: $secondary-color;
   content: "";
   display: block;
@@ -84,32 +84,32 @@ a{
   position: absolute;
 }
 
-.header .menu-icon .nav-icon::before{
+.nav-icon::before{
   top: 5px;  
 }
 
-.header .menu-icon .nav-icon::after{
+.nav-icon::after{
   top: -5px;
 }
 
-.header .menu-btn{
+.menu-btn{
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu{
+.menu-btn:checked ~ .menu{
   max-height: 280px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon{
+.menu-btn:checked ~ .menu-icon .nav-icon{
   background-color: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::before {
+.menu-btn:checked ~ .menu-icon .nav-icon::before {
   transform: rotate(-45deg);
   top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::after {
+.menu-btn:checked ~ .menu-icon .nav-icon::after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -123,13 +123,13 @@ a{
     padding: 20px 30px;
   }
 
-  .header .menu{
+  .menu{
     clear: none;
     float: right;
     max-height: none;
   }
 
-  .header .menu-icon{
+  .menu-icon{
     display: none;  
   }
 }  
