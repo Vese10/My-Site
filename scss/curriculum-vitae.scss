@@ -11,6 +11,14 @@ $text-font: 'Tilt Neon', sans-serif;
   
 @media (max-width: 960px){
   
+  .header{
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .footer{
+    border-top: 1px solid #ffffff;
+  }
+
   .curriculum-vitae{
     display: flex;
     flex-direction: column;
@@ -34,13 +42,17 @@ $text-font: 'Tilt Neon', sans-serif;
   .title-right,
   .text-left,
   .text-right,
-  .job-skills,
   .job{
     margin-top: 10px;
     text-align: center;
   }
 
-  .text-left,
+  .title-left,
+  .text-left{
+    font-family: $text-font;
+    color: #ffffff;
+  }
+
   .text-right{
     font-family: $text-font;
   }
@@ -52,15 +64,12 @@ $text-font: 'Tilt Neon', sans-serif;
   li{
     list-style-position: inside;
     font-family: $text-font;
+    color: #ffffff;
   }
 
   .job{
     font-family: $text-font;
     font-weight: bold;
-  }
-
-  .summary{
-    padding-bottom: 100px;
   }
 
   .container-zero,
@@ -73,10 +82,22 @@ $text-font: 'Tilt Neon', sans-serif;
     padding: 0 10px;
     border-top: 1px solid $primary-color;
   }
+
+  .left-section{
+    background-color: $primary-color;
+  }
 }
 
 @media (min-width: 961px){
   
+  .header{
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .footer{
+    border-top: 1px solid #ffffff;
+  }
+
   .curriculum-vitae{
     display: flex;
     flex-direction: row;
@@ -133,10 +154,6 @@ $text-font: 'Tilt Neon', sans-serif;
   .job{
     font-family: $text-font;
     font-weight: bold;
-  }
-
-  .summary{
-    padding-bottom: 100px;
   }
 
   .container-zero,
