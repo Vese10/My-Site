@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+$primary-color: #366457;
+$secondary-color: #000000;
+$hover-color: #2C5247;
+$text-font: 'Tilt Neon', sans-serif;
+  
+.curriculum-vitae{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.profile-picture-image{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.description{
+  flex-direction: column;
+  align-items: center;
+}
+
+.name,
+.title,
+.professional-profile,
+.job-description,
+.job-skills,
+.job{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.professional-profile,
+.job-description,
+.student{
+  font-family: $text-font;
+}
+
+.student{
+  text-align: center;
+}
+
+.skills-list{
+  text-align: left;
+}
+
+li{
+  list-style-position: inside;
+  font-family: $text-font;
+}
+
+.job{
+  font-family: $text-font;
+  font-weight: bold;
+}
+
+.summary{
+  padding-bottom: 100px;
+}
+
+.container-zero,
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.container-five,
+.container-six{
+  padding: 0 10px;
+  border-top: 1px solid $primary-color;
+}
