@@ -95,6 +95,10 @@ $hover-color: #2C5247;
   background-color: $hover-color;
 }
 
+.contact button:active{
+  background-color: $primary-color;
+}
+
 .bali-background-small{
   position: fixed;
   display: block;
