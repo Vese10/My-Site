@@ -61,6 +61,7 @@ li{
 
 .logos{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -72,6 +73,21 @@ li{
 
 .css-logo{
   width: 100px;
+  height: 100px;
+}
+
+.javascript-logo{
+  width: 100px;
+  height: 100px;
+}
+
+.react-logo{
+  width: 100px;
+  height: 100px;
+}
+
+.nodejs-logo{
+  width: 150px;
   height: 100px;
 }
 
