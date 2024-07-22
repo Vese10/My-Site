@@ -43,7 +43,8 @@
   text-decoration: none;
 }
 
-.fourth-row {
+.fourth-row,
+.fifth {
   margin: 20px 10px;
   padding: 5px 10px;
   background-color: #366457;
@@ -55,11 +56,13 @@
   text-decoration: none;
 }
 
-.fourth-row:hover {
+.fourth-row:hover,
+.fifth:hover {
   background-color: #2C5247;
 }
 
-.fourth-row:active {
+.fourth-row:active,
+.fifth:active {
   background-color: #366457;
 }
 
